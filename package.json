@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "@clerk/nextjs": "^6.33.3",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "ingest": "^1.0.0",
+    "inngest": "^3.44.3",
+    "mongoose": "^8.19.1",
+    "next": "^15.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-hot-toast": "^2.5.1"
+    "react-hot-toast": "^2.5.1",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

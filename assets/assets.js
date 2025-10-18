@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
+import aarc from "./techLogo.png"
 import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
@@ -53,6 +54,7 @@ export const assets = {
   user_icon,
   cart_icon,
   add_icon,
+  aarc,
   order_icon,
   instagram_icon,
   facebook_icon,
