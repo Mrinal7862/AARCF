@@ -15,9 +15,9 @@ async function connectDb(){
             bufferCommands: false
         }
 
-        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/Custom,`, opts.then(mongoose=>
+        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/Custom`, opts).then((mongoose) =>
         {return mongoose}  
-        ))
+        )
 
     }
 
