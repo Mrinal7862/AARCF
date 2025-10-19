@@ -1,5 +1,5 @@
 import { Inngest } from "inngest";
-import connectDb from "../lib/db"; // Adjusted path assuming db.js is in a /lib folder
+import connectDb from "./db";
 import User from "@/models/User";
 
 // Create a client to send and receive events
