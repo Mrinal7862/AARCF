@@ -17,11 +17,11 @@ async function connectDb(){
             useUnifiedTopology: true,
         }
 
-        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/CustomEcom`, opts)
-            .then((mongooseInstance) => {
+        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/customecom`, opts)
+            .then(mongoose => {
                 console.log("MongoDB connected successfully")
                 // Return the connection object
-                return mongooseInstance.connection
+                return mongoose
             })
             .catch(err => {
                 // Clear promise so future calls can retry
