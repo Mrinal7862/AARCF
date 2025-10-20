@@ -3,7 +3,7 @@ import connectDb from "./db";
 import User from "@/models/User";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "custom-next" });
+export const inngest = new Inngest({ id: "custom-next", eventkey: process.env.INNGEST_EVENT_KEY });
 
 // --- Ingest function to SAVE user data to a database ---
 export const syncUserCreation = inngest.createFunction(
