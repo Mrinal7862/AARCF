@@ -29,7 +29,7 @@ export async function POST(request){
         const price = formData.get('price');
         const offerPrice = formData.get('offerPrice');
 
-        const files = formData.getAll('images');
+        const files = formData.getAll('image');
 
         if(!name || !description || !category || !price || files.length === 0){
             return NextResponse.json({success: false, message: "All fields are required"})
@@ -73,8 +73,10 @@ export async function POST(request){
             date: Date.now()
 
         })
+        console.log("Product added successfully")
         return NextResponse.json({success: true, message:"Upload SuccessFull", product: newProduct})
     } catch (error) {
+        console.log(error.message)
         return NextResponse.json({success: false, message: error.message})
     }
 }
