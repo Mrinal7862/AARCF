@@ -103,6 +103,8 @@ export const createUserOrder = inngest.createFunction(
   },
   // Add 'step' to the arguments here
   async ({ events, step }) => { 
+    console.log("createUserOrder triggered, events:", events.length);
+
     const orders = events.map((event) => {
       return {
         userId: event.data.userId,
@@ -118,6 +120,14 @@ export const createUserOrder = inngest.createFunction(
       await connectDb();
       await Order.insertMany(orders);
     });
+
+    // Send the order/created event for each order
+    for (const order of orders) {
+      await inngest.send({
+        name: "order/created",
+        data: order
+      });
+    }
 
     return { success: true, processed: orders.length };
   }
