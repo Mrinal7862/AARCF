@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Navbar/>
-      <div className="px-6 md:px-16 lg:px-32">
+      <div className="px-6 md:px-16 lg:px-32 bg-gray-100">
         <HeaderSlider />
         <HomeProducts />
         <FeaturedProduct />
