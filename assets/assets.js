@@ -47,9 +47,27 @@ import product_details_page_apple_earphone_image2 from "./product_details_page_a
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
 import product_details_page_apple_earphone_image4 from "./product_details_page_apple_earphone_image4.png";
 import product_details_page_apple_earphone_image5 from "./product_details_page_apple_earphone_image5.png";
-
+import pizzaBun from "./pizzaBun.png"
+import cokeMac from './cokeMac.png'
+import bgImg1 from './bgImg1.png'
+import chips from './chips.png'
+import potatoNuggets from './potatoNuggets.png'
+import wraps from './wraps.png'
+import potatoNuggets1 from './potatoNuggets1.png'
+import martianEdition from './martianEdition.png'
+import martian1 from './martian1.png'
 export const assets = {
+  martian1,
+  martianEdition,
+  potatoNuggets1,
+  wraps,
   logo,
+  pizzaBun,
+  cokeMac,
+  bgImg1,
+  chips,
+  potatoNuggets,
+  chips,
   search_icon,
   user_icon,
   cart_icon,

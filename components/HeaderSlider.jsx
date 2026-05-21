@@ -10,23 +10,23 @@ const HeaderSlider = () => {
       offer: "Limited Time Offer",
       buttonText1: "Order now",
       buttonText2: "Find more",
-      imgSrc: assets.header_headphone_image,
+      imgSrc: assets.cokeMac,
     },
     {
       id: 2,
-      title: "Discover the Idea with Taste - AARC Foods!",
-      offer: "Get chance to share your Idea to public!",
+      title: "Today's Mood, Today's Food - AARC Foods!",
+      offer: "Get chance to get a Free Wrap!",
       buttonText1: "Order Now",
       buttonText2: "Explore Deals",
-      imgSrc: assets.header_playstation_image,
+      imgSrc: assets.wraps,
     },
     {
       id: 3,
-      title: "Power Meets Elegance - Apple MacBook Pro is Here for you!",
-      offer: "Exclusive Deal 40% Off",
+      title: "AARC Meal - The Pure Martian Edition",
+      offer: "Exclusive Launch",
       buttonText1: "Order Now",
-      buttonText2: "Learn More",
-      imgSrc: assets.header_macbook_image,
+      buttonText2: "Worth 250/-",
+      imgSrc: assets.martian1,
     },
   ];
 
@@ -73,7 +73,7 @@ const HeaderSlider = () => {
             </div>
             <div className="flex items-center flex-1 justify-center">
               <Image
-                className="md:w-72 w-48"
+                className="md:w-72 w-40"
                 src={slide.imgSrc}
                 alt={`Slide ${index + 1}`}
               />

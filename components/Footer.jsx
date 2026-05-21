@@ -9,17 +9,16 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
 
         <div className="w-4/5">
-          <Image className="w-28 md:w-32" src={assets.aarc} alt="logo" />
+          <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <br/>
           <h1 className="text-black text-xl font-bold">Team A.A.R.C. Tech</h1>
           <p className="mt-6 text-md">
-            Site Design & Development by Team AARC Tech
+            AARC FOODS is a food delivery service that provides delicious meals to customers. We are committed to delivering high-quality food with excellent customer service. Our team is dedicated to ensuring that every order is prepared with care and delivered on time.
               <br/>
-            A Digital Experience Engineered by Team AARC Tech
               <br/>
-            Professionally Built by Team AARC Tech
+            Owner Ms. Anjali Prajapati
               <br/>
-            © 2025 Custom Fashion | Powered by Team AARC Tech"
+            Contact AARC FOODS for any queries: +91 9044614431
           </p>
         </div>
 

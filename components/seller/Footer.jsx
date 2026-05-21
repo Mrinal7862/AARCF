@@ -9,7 +9,7 @@ const Footer = () => {
         <Image className="hidden md:block" src={assets.logo} alt="logo" />
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
         <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-          Copyright 2025 © Created By Team A.A.R.C Tech, All Right Reserved.
+          Contact AARC FOODs for any queries or support. We are here to help you with your food needs!
         </p>
       </div>
       <div className="flex items-center gap-3">
