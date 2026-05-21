@@ -15,7 +15,7 @@
     "axios": "^1.12.2",
     "cloudinary": "^2.7.0",
     "ingest": "^1.0.0",
-    "inngest": "^3.44.3",
+    "inngest": "^4.4.0",
     "mongoose": "^8.19.1",
     "next": "^15.5.4",
     "react": "^19.0.0",
